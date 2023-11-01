@@ -12,7 +12,7 @@ const quotes = [
 ];
 const closed = [
     `Tauuu gaa, kenapa aku menggunakan konsep puzzle ini? Puzzle itu kan harus disusun menjadi utuh ya, semoga di umur seperempat abad ini bisa menjadi perempuan yang <b>"UTUH"</b>`,
-    `daann, kenapa menggunakan bunga mawar.. ya betuull, resti tuh ibarat bunga mawar bagiku... Bunga mawar itu mempunyai duri, jadi susah untuk dekatin atau bahkan dimiliki... Tapii, dibalik ada duri nya ada bunga yang sangatt indah sekali dan harum semerbak. Kalau sudah bisa digenggap pasti akan sngat sulit untuk melepaskan nya :) dan aku menunggu momen itu hehehe`
+    `daann, kenapa menggunakan bunga mawar.. ya betuull, resti tuh ibarat bunga mawar bagiku... <br> Bunga mawar itu mempunyai duri, jadi susah untuk dekatin atau bahkan dimiliki... Tapii, dibalik duri nya ada bunga yang sangatt indah sekali dan harum semerbak. Kalau sudah bisa digenggam pasti akan sngat sulit untuk melepaskan nya :) <br>dan aku menunggu momen itu hehehe`
 ];
 let counter = 0;
 $(document).ready(function(){
