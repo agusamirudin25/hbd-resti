@@ -23,6 +23,8 @@ $(document).ready(function(){
 
     $('.img-fluid').click(function(){
         const id = $(this).data('id');
+        const isClicked = $(this).hasClass('is-clicked');
+        if(isClicked) return;
         // change image src
         $(this).attr('src', `assets/bunga/${id}.jpg`);
         Swal.fire({
@@ -30,6 +32,7 @@ $(document).ready(function(){
             text: quotes[counter]
         });
         counter++;
+        $(this).addClass('is-clicked');
 
         if(counter == quotes.length){
             setTimeout(() => {
