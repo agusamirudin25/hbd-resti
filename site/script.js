@@ -20,6 +20,9 @@ $(document).ready(function(){
         title: 'Haloooo',
         text: greeting
     })
+    .then(() => {
+        $('#audio').trigger('play');
+    })
 
     $('.img-fluid').click(function(){
         const id = $(this).data('id');
